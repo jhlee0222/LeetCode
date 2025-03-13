@@ -1,0 +1,6 @@
+main1.cpp: Runtime 150ms, Memory 14.17 MB
+
+main2.cpp: Runtime 110ms, Memory 13.94 MB
+Improve: instead of counting nums[i] + nums[j] everytime, using 
+
+main3.cpp:
