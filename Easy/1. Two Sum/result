@@ -1,6 +1,10 @@
 main1.cpp: Runtime 150ms, Memory 14.17 MB
 
 main2.cpp: Runtime 110ms, Memory 13.94 MB
-Improve: instead of counting nums[i] + nums[j] everytime, using 
+Improve: instead of counting nums[i] + nums[j] everytime, 
+using int remain = target - nums[i]; to create a intermediate var to reduce calculation.
 
-main3.cpp:
+main3.cpp: Runtime 0ms, Memory 14.72 MB
+Improve: using an unordered map (hash table)
+if (umap.find(remain) != umap.end()) return {umap[remain], i};          
+umap[nums[i]] = i; 
