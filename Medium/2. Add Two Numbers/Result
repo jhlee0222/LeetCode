@@ -1,1 +1,4 @@
 main1.cpp: Runtime 0ms, Memory 77.1 MB
+
+main2.cpp: Runtime 1ms, Memory 77.03 MB
+Improve: delete temp Nodes.
